@@ -59,7 +59,8 @@ nav{
     margin:  55px -8px;
 }
 main{
-    @media { width: 100%;
+    @media { width: 250px;
+            padding:100%+100px;
          }
 }
 .hero{ 
