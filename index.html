@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<body style="font-family: Noto Sans, sans-serif; font-size: 20px;">
+<body style="font-family: Noto Sans, sans-serif; font-size: 20px;" >
     <nav>
        <img src="/web.dev.svg" alt="" width="190px" > 
        <ol>
@@ -24,7 +24,7 @@
       <button class="language">English</button>
        <button style="padding: 2px 8px; border: 1px transparent solid;">Sign in</button>
     </nav>
-    <main>
+    <main >
         <div class="header">Guidance to build modern web experiences that work on any browser.</div>
         <div class="hero">
         <div class="left">
@@ -37,7 +37,7 @@
         <div>
             <img src="web.dev/imgi_41_ai-feature_1440.png" alt="" width="250px" class="image">
             <h3 class="header-three">AI and the web</h3>
-            <p class="para-one">Discover resources created to help you understand and build performant, web-first experiences with AI.</p>
+            <p class="para-one">Discover resources created to help you understand and build performant, web-first <br> experiences with AI.</p>
             <button class="btn">Learn more</button>
             </div>
             <div>
@@ -61,8 +61,8 @@
         </div>
         <div class="section-one">
            <div>
-            <img src="" alt="" width="100px" class="icon">
-            <h3 header-three>HTML</h3>
+            <img src="/bxs--file-html.svg" alt="" width="100px" class="icon">
+            <h3 header-three style="padding: 0px 150px;">HTML</h3>
             <P class="para-one">HTML is the document layer of the web, providing structure and semantics for pages.</P>
               <button class="btn">Learn more</button>
            </div>
@@ -235,35 +235,43 @@
                 <button class="btn">More on identity</button>
             </div>
           </article>
+          <section class="footer">
           <div class="form">
-            <div>
+            <div class="headers">
             <h2>Developer Newsletter</h2>
             <p>Get the latest news, techniques and updates straight to your inbox.
-         </p>
+            </div> </p>
+         <div class="forms">
          <label for="name">First Name</label>
-            <input type="text"placeholder="First Name">
+            <input type="text"placeholder="First Name" class="name">
             <label for="name">Last Name</label>
-            <input type="text"placeholder="Last Name"> <br>
-            <label for="email"> YourEmail</label>
-            <input type="email"placeholder="YourEmail">
-           <br> <label for="country">Country</label>
-            <input type="text">
+            <input type="text"placeholder="Last Name" class="name"> 
+           <br><br> <label for="email"> Your Email</label>
+           <br> <input type="email"placeholder="Your Email">
+           <br><br> <label for="country">Country</label>
+           <br> <input type="text">
             <p>Don't worry, no spam here! Your information will only be used for web.dev and Chrome related updates and our emails are typically no more than 1-2 times a month. You can unsubscribe anytime.</p>
-            <p>Add me to the web.dev mailing list.</p>
-            <p>I accept Google's Terms and Conditions and acknowledge that my information will be used in accordance with Google's Privacy Policy.
-           </p>
-           <button>
-            <p>I'm not a robot</p>
-     <p>reCAPTCHA is changing its terms of service. Take action</p>
+           
+            <input type="checkbox" name="mail" style="width: 30px;">
+             <label for="mail" style="font-size: 18px;">Add me to the web.dev mailing list. </label>
+             <br>
+             <input type="checkbox" style="width: 30px;" name="accept">
+             <label for="accept" style="font-size: 18px;">I accept Google's Terms and Conditions and acknowledge that my information will be used in accordance with Google's Privacy Policy.
+             </label>
+             <br><br>
+           <button style="padding: 20px;">
+             <input type="checkbox" style="width: 30px;" name="action">
+            <label for="" style="font-size: 12px; ">I'm not a robot <br>
+     reCAPTCHA is changing its terms of service. <br> Take action </label>
            </button>
-           <button class="btn">SUSCRIBE</button>
+           <button class="btn"style="margin-left: 230px;">SUSCRIBE</button>
         </div>
-          </div>
+        </div>
+          <div class="foot">
           <div>
             <img src="/web.dev.svg" alt="">
             <p>We want to help you build beautiful, accessible, fast, and secure websites that work cross-browser, and for all of your users. This site is our home for content to help you on that journey, written by members of the Chrome team, and external experts.</p>
           </div>
-          <div>
             <div>
                 <h3>Contribute</h3>
                 <ol>
@@ -290,13 +298,16 @@
                 </ol>
             </div>
           </div>
-          <div>
+        
+          <div class="terms">
             <a href="">Terms | Privacy</a>
             <button class="language">
                 <img src="/fontisto--world-o.svg" alt="">
                 English
             </button>
           </div>
+        </div>
+        </section>
     </main>
 </body>
 </html>

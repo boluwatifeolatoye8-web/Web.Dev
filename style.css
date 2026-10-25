@@ -58,7 +58,7 @@ nav{
     padding:30px;
     margin:  55px -8px;
 }
-.hero{
+.hero{ 
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -95,7 +95,8 @@ nav{
     display: flex;
     gap: 20px;
      padding: 50px;
-    div{
+    div{ 
+        border-radius: 20px;
         margin: 20px;
          justify-content: center;
         background-color: #f5f6f7;
@@ -136,6 +137,7 @@ span{
 .section-two{
     align-items: center;
     display: flex;
+
     div{
         flex-direction: column;
     }
@@ -185,6 +187,8 @@ span{
     display: flex;
     margin: 20px;
     gap: 10px;
+    background-color: #ffffff;
+
     div{
      flex-direction: column;
     padding: 20px;
@@ -216,7 +220,7 @@ span{
    .article-sec{
      display: flex;
     margin: 20px -8px;
-    margin-bottom: 1px;
+    margin-bottom: 2px;
     gap: 10px;
     background-color: #f5f6f7;
     padding: 20px;
@@ -251,13 +255,74 @@ span{
     background-color: #f5f6f7;
     align-items: center;
     gap: 20px;
-      div{
+     /* margin-bottom: 50px;  */
+    
+      .headers{
         align-items: center;
-        padding: 20px 450px;
+       margin: 0px  300px;
+       padding: 20px 100px;
+    }
+      div{
+        padding: 0px 20px;
       }
     h2{
-        font-size: 40px;
+        font-size: 45px;
         font-weight: 700;
+        justify-content: center;
+    
     }
-
+    p{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .forms{
+     margin: 60px 50px;
+     background-color: #ffffff;
+     margin-right:20px ;
+     align-items: center;
+     padding: 50px 300px;
+     font-size: 15px;
+     label{
+        font-size: 13px;
+        font-weight:lighter ;
+     }
+     input{
+        width: 600px;
+        font-size: 16px;
+     }
+        .name{
+            width: 200px;
+        }
+        button{
+            align-items: center;
+            display: block;
+            margin-top: 40px;
+            margin-left: 150px;
+        }
+     }
 }
+.footer{
+    background-color: #f5f6f7;
+}
+    .foot{
+        margin-top: 40px ;
+        display: flex;
+        gap: 30px;
+        background-color: #ffffff;
+       margin-bottom: 2px;
+        div{
+            flex-direction: column;
+            font-size: 14px;
+            max-width: 700px;
+        }
+    }
+    .terms{
+        margin: 2px ;
+       display: flex;
+       gap: 1100px;
+       background-color: #ffffff;
+       a{
+        text-decoration: none;
+        color: black;
+       }
+    }
